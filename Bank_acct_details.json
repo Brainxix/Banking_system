@@ -3,22 +3,30 @@
         "name": "Hanson",
         "password": "Hanson@1223",
         "account_number": 8157792311,
-        "balance": 2000,
+        "balance": 52300,
         "transactions": [
             "Account created",
-            "Received \u20a62,000 from 9690771402"
+            "Received \u20a62,000 from 9690771402",
+            "Deposited \u20a61,000",
+            "Withdrew \u20a6200",
+            "Transferred \u20a6500 to 9690771402",
+            "Received \u20a650,000 from 9690771402"
         ]
     },
     {
         "name": "VIVIAN",
         "password": "Vivian@1223",
         "account_number": 9690771402,
-        "balance": 197000,
+        "balance": 64500,
         "transactions": [
             "Account created",
             "Deposited \u20a6200,000",
             "Withdrew \u20a61,000",
-            "Transferred \u20a62,000 to 8157792311"
+            "Transferred \u20a62,000 to 8157792311",
+            "Received \u20a6500 from 8157792311",
+            "Deposited \u20a67,000",
+            "Withdrew \u20a690,000",
+            "Transferred \u20a650,000 to 8157792311"
         ]
     }
 ]

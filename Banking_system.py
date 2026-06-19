@@ -71,7 +71,6 @@ try:                                #used to handle value error
             #stores transaction history
 
             "transactions": [
-                "Account created"
             ]
         }
         #open existing accounts instead of deleting previous accounts
@@ -105,6 +104,7 @@ try:                                #used to handle value error
 
         if isinstance(accounts, dict):
             accounts = [accounts]
+
         current_user = None
 
         #search through all accounts
@@ -129,7 +129,8 @@ try:                                #used to handle value error
                         "2. Deposit\n"
                         "3. Withdraw\n"
                         "4. Transfer\n"
-                        "5. Logout"
+                        "5. Account Summary\n"
+                        "6. Logout"
                     )
 
                     user_choice = int(input("Choose option: "))
@@ -241,6 +242,7 @@ try:                                #used to handle value error
 
                         print(f"\nCurrent Balance: ₦{current_user['balance']:,}")
                         print("=========================================")
+                    elif user_choice ==6:
                         print("Logged out successfully!")
 
                         break
