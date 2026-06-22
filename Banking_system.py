@@ -1,6 +1,6 @@
 import random                       #used to generate random account number
 import json                         #used as a mini database to store user account details
-
+import getpass
 try:                                #used to handle value error
 
     #prints the interface and asked for users option
@@ -12,12 +12,17 @@ try:                                #used to handle value error
     #this chunk of code is used to confirm users password and ensure the password is strong
 
     if user == 1:
-        user_name = input("Name: ")
+        while True:
+            user_name = input("Name: ")
+            if user_name.isalpha():
+                break
+            else:
+                print("Your account name can only be letters")
 
         while True:
 
-            password1 = input("Password: ")
-            password2 = input("Confirm Password: ")
+            password1 = getpass.getpass("Password: ")
+            password2 = getpass.getpass("Confirm Password: ")
 
             if password1 == password2:
                 user_password = password1
@@ -55,8 +60,22 @@ try:                                #used to handle value error
                 break
 
         # this code generates the account number automatically
+        with open("Bank_acct_details.json","r") as file:
+            accounts = json.load(file)
+        while True:
+            
+            acct_number = random.randint(1000000000,9999999999)
+            duplicate = False
+            for account in accounts:
 
-        acct_number = random.randint(1000000000,9999999999)
+                if account["account_number"] == acct_number:
+                    duplicate = True
+                    break
+
+
+            if duplicate == False:
+                break
+            
         bal = 0
 
         print("Your account number is:", acct_number)
@@ -117,7 +136,7 @@ try:                                #used to handle value error
 
             print("Account number not found")
         else:
-            ask_password = input("Enter your password: ")
+            ask_password = getpass.getpass("Enter your password: ")
 
             if ask_password == current_user["password"]:
                 print("Login successful!")

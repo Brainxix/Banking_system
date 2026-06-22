@@ -17,7 +17,7 @@
         "name": "VIVIAN",
         "password": "Vivian@1223",
         "account_number": 9690771402,
-        "balance": 64500,
+        "balance": 65000,
         "transactions": [
             "Account created",
             "Deposited \u20a6200,000",
@@ -26,7 +26,118 @@
             "Received \u20a6500 from 8157792311",
             "Deposited \u20a67,000",
             "Withdrew \u20a690,000",
-            "Transferred \u20a650,000 to 8157792311"
+            "Transferred \u20a650,000 to 8157792311",
+            "Received \u20a6500 from 1851350202"
         ]
+    },
+    {
+        "name": "NWANKWO PRECIOUS CHIMEREMUMMA",
+        "password": "Presh2036@",
+        "account_number": 1851350202,
+        "balance": 600,
+        "transactions": [
+            "Deposited \u20a61,000",
+            "Withdrew \u20a6200",
+            "Transferred \u20a6500 to 9690771402",
+            "Deposited \u20a6300"
+        ]
+    },
+    {
+        "name": "55677",
+        "password": "12345678@As",
+        "account_number": 6433914265,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "9999",
+        "password": "12345678@As",
+        "account_number": 8616232514,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 2090836813,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 1618944067,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 1077784256,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 4537255642,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 4413192222,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 8550381713,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 9780349621,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "2222",
+        "password": "Hanson@12223",
+        "account_number": 8223280065,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "Hanson",
+        "password": "& C:/Users/hello/AppData/Local/Programs/Python/Python314/python.exe c:/Users/hello/Desktop/Banking_system/Banking_system.py",
+        "account_number": 7613186978,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "Hanson",
+        "password": "Hanson@1223",
+        "account_number": 3185633983,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "Hanson",
+        "password": "Hanson@1223",
+        "account_number": 9702361156,
+        "balance": 0,
+        "transactions": []
+    },
+    {
+        "name": "Hanson",
+        "password": "Hanson@1223",
+        "account_number": 3662780677,
+        "balance": 0,
+        "transactions": []
     }
 ]
